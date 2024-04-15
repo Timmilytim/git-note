@@ -149,4 +149,10 @@ git arictectture
 
 2: staging area: it like a drafting space 
 
-3:local repository: this is where we record all our changes											                         
+3:local repository: this is where we record all our changes
+
+to undo changes to working directory: "git checkout index.html" or "git checkout -- index.html"
+
+To return staged repository back to the working area: " git reset HEAD index.html"
+
+To go retrive an old version of a file (check your "git log", copy the id of the commit you want to retrive first): "git checkout YOURCODEIDHEREq -- index.html"
